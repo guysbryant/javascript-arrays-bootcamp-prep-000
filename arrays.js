@@ -10,5 +10,10 @@ function destructivelyAddElementToBeggingOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element){
-  
+  return [array,...eleemnt];
+}
+
+function destructivelyAddElementToEndOfArray(array, element){
+  array = [array,...element];
+  return array;
 }
